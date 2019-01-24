@@ -20,7 +20,23 @@ public class LevelTraversal {
      *    3.队列（Queue）
      */
     public String traverse(TreeNode root) {
-        return "" +
-                "";
-    }
-}
+        return "";        if (root ==null) {
+            return "";
+        }
+        Queue<TreeNode> tree = new LinkedList<TreeNode>();
+        queue.offer(root);
+        StringBuilder node = new StringBuilder();
+        while(queue.isEmpty=true){
+            Treenode current=queue.poll();
+            if(current.getLeftChild()!=null) {
+                queue.offer(current.getLeftChild());
+            }
+            if(current.getRightChild() != null) {
+                queue.offer(current.getRightChild());
+            }
+            }
+            }
+
+        }
+    
+
